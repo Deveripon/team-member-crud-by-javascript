@@ -1,0 +1,18 @@
+@mixin heading_font_style {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+@mixin subtitle_font_style {
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+@mixin paragraph_font_style {
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-decoration: none;
+}

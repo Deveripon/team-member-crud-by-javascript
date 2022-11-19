@@ -1,0 +1,15 @@
+.card {
+	margin-top: 100px;
+	h4 {
+		color: $primaryColor;
+		@include heading_font_style;
+	}
+	h5 {
+		color: $secondaryColor;
+		@include subtitle_font_style;
+	}
+	img {
+		width: 100%;
+		object-fit: cover;
+	}
+}
